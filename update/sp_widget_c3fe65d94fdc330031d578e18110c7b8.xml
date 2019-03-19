@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>p login widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 06:21:13</sys_created_on>
+        <sys_id>c3fe65d94fdc330031d578e18110c7b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>p login widget</sys_name>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>sp_widget_c3fe65d94fdc330031d578e18110c7b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 06:22:06</sys_updated_on>
+        <template><![CDATA[<div>
+	Username: <input id="username" />
+</div>
+<div>
+	Password: <input id="password" />
+</div>
+<div>
+  <button>Login</button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b0bfe11d4fdc330031d578e18110c76e</sp_column>
+        <sp_widget display_value="p 404 widget">90cfe11d4fdc330031d578e18110c74c</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 06:24:00</sys_created_on>
+        <sys_id>aabf251d4fdc330031d578e18110c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>sp_instance_aabf251d4fdc330031d578e18110c7cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 06:24:00</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=aabf251d4fdc330031d578e18110c7cb"/>
+</record_update>

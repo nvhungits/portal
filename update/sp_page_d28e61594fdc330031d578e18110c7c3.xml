@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>p_404</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 06:18:33</sys_created_on>
+        <sys_id>d28e61594fdc330031d578e18110c7c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>p_404</sys_name>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>sp_page_d28e61594fdc330031d578e18110c7c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 06:18:33</sys_updated_on>
+        <title>p 404</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=d28e61594fdc330031d578e18110c7c3"/>
+</record_update>
