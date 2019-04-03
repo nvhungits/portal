@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <homepage display_value="c_homepage">6c6cf5d54f10730031d578e18110c709</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="c main menu">dbacb5194f10730031d578e18110c736</sp_rectangle_menu>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 07:18:43</sys_created_on>
+        <sys_id>eb4c75d54f10730031d578e18110c727</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>community</sys_name>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>sp_portal_eb4c75d54f10730031d578e18110c727</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 07:20:42</sys_updated_on>
+        <theme display_value="c theme">98ccf5194f10730031d578e18110c739</theme>
+        <title>community</title>
+        <url_suffix>community</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb4c75d54f10730031d578e18110c727"/>
+</record_update>

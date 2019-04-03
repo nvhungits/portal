@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>c homepage widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 07:37:54</sys_created_on>
+        <sys_id>f7a08e1d4f10730031d578e18110c7d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>c homepage widget</sys_name>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>sp_widget_f7a08e1d4f10730031d578e18110c7d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 07:56:55</sys_updated_on>
+        <template><![CDATA[<base href='/'>
+<meta charset="utf-8" />
+<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+<link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<title>Now UI Dashboard Angular by Creative Tim</title>
+
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<meta name="viewport" content="width=device-width" />
+
+<!--     Fonts and icons     -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-KEY-HERE"></script>
+
+
+<div class="wrapper">
+  <div class="sidebar" data-color="red">
+    <app-sidebar></app-sidebar>
+  </div>
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

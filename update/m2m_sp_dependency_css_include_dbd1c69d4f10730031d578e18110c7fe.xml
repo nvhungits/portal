@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include">
+    <m2m_sp_dependency_css_include action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_css_include display_value="c sidebar and main panel css">86b14a9d4f10730031d578e18110c751</sp_css_include>
+        <sp_dependency display_value="c themes">7191869d4f10730031d578e18110c736</sp_dependency>
+        <sys_class_name>m2m_sp_dependency_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 07:42:48</sys_created_on>
+        <sys_id>dbd1c69d4f10730031d578e18110c7fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c sidebar and main panel css.c themes</sys_name>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>m2m_sp_dependency_css_include_dbd1c69d4f10730031d578e18110c7fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 07:42:48</sys_updated_on>
+    </m2m_sp_dependency_css_include>
+</record_update>

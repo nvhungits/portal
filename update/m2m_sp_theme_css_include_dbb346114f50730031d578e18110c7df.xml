@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include">
+    <m2m_sp_theme_css_include action="INSERT_OR_UPDATE">
+        <order/>
+        <sp_css_include display_value="c navbar css">19d24edd4f10730031d578e18110c7b5</sp_css_include>
+        <sp_theme display_value="c theme">98ccf5194f10730031d578e18110c739</sp_theme>
+        <sys_class_name>m2m_sp_theme_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 07:51:00</sys_created_on>
+        <sys_id>dbb346114f50730031d578e18110c7df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c navbar css.c theme</sys_name>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>m2m_sp_theme_css_include_dbb346114f50730031d578e18110c7df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 07:51:00</sys_updated_on>
+    </m2m_sp_theme_css_include>
+</record_update>

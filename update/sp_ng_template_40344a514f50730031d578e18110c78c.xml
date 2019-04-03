@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>appFooterTemplate</id>
+        <sp_widget display_value="c homepage widget">f7a08e1d4f10730031d578e18110c7d1</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 07:53:13</sys_created_on>
+        <sys_id>40344a514f50730031d578e18110c78c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>appFooterTemplate</sys_name>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>sp_ng_template_40344a514f50730031d578e18110c78c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 07:53:13</sys_updated_on>
+        <template><![CDATA[
+<footer class="footer">
+  <div class="container-fluid">
+    <nav>
+      <ul>
+        <li>
+          <a href="https://www.creative-tim.com">
+            Creative Tim
+          </a>
+        </li>
+        <li>
+          <a href="https://www.creative-tim.com/about-us">
+            About Us
+          </a>
+        </li>
+        <li>
+          <a href="http://blog.creative-tim.com">
+            Blog
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="copyright">
+      &copy;
+      {{test | date: 'yyyy'}}, Designed by
+      <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
+      <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+    </div>
+  </div>
+</footer>
+]]></template>
+    </sp_ng_template>
+</record_update>

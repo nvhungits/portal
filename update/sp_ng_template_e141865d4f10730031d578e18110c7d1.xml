@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>appSidebarTemplate</id>
+        <sp_widget display_value="c homepage widget">f7a08e1d4f10730031d578e18110c7d1</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 07:40:35</sys_created_on>
+        <sys_id>e141865d4f10730031d578e18110c7d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>appSidebarTemplate</sys_name>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>sp_ng_template_e141865d4f10730031d578e18110c7d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 07:40:35</sys_updated_on>
+        <template><![CDATA[
+<div class="logo">
+  <a href="https://www.creative-tim.com" class="simple-text logo-mini">
+    <div class="logo-img">
+      <img src="./assets/img/angular2-logo-white.png"/>
+    </div>
+  </a>
+  <a href="https://www.creative-tim.com" class="simple-text logo-normal">
+    Creative Tim
+  </a>
+</div>
+<div class="sidebar-wrapper">
+  <ul class="nav">
+    <li routerLinkActive="active" *ngFor="let menuItem of menuItems" class="{{menuItem.class}} nav-item">
+      <a [routerLink]="[menuItem.path]">
+        <i class="now-ui-icons {{menuItem.icon}}"></i>
+        <p>{{menuItem.title}}</p>
+      </a>
+    </li>
+  </ul>
+</div>
+]]></template>
+    </sp_ng_template>
+</record_update>

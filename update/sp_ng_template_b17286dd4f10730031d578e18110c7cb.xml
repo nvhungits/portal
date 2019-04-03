@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>appNavbarTemplate</id>
+        <sp_widget display_value="c homepage widget">f7a08e1d4f10730031d578e18110c7d1</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 07:45:40</sys_created_on>
+        <sys_id>b17286dd4f10730031d578e18110c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>appNavbarTemplate</sys_name>
+        <sys_package display_value="portal" source="x_322757_portal">f391f8d54f1c330031d578e18110c72a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="portal">f391f8d54f1c330031d578e18110c72a</sys_scope>
+        <sys_update_name>sp_ng_template_b17286dd4f10730031d578e18110c7cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 07:45:40</sys_updated_on>
+        <template><![CDATA[
+<nav class="navbar navbar-expand-lg navbar-transparent  navbar-absolute bg-primary fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-wrapper">
+      <div class="navbar-toggle">
+        <button type="button" class="navbar-toggler" (click)="sidebarToggle()">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </button>
+      </div>
+      <a class="navbar-brand" href="#pablo">{{getTitle()}}</a>
+    </div>
+    <button class="navbar-toggler" type="button" (click)="collapse()"
+            [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
+      <span class="navbar-toggler-bar navbar-kebab"></span>
+      <span class="navbar-toggler-bar navbar-kebab"></span>
+      <span class="navbar-toggler-bar navbar-kebab"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapseExample" [ngbCollapse]="isCollapsed">
+      <form>
+        <div class="input-group no-border">
+          <input type="text" value="" class="form-control" placeholder="Search...">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <i class="now-ui-icons ui-1_zoom-bold"></i>
+            </div>
+          </div>
+        </div>
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#pablo">
+            <i class="now-ui-icons media-2_sound-wave"></i>
+            <p>
+              <span class="d-lg-none d-md-block">Stats</span>
+            </p>
+          </a>
+        </li>
+        <li class="nav-item" ngbDropdown>
+          <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>
+            <i class="now-ui-icons location_world"></i>
+            <p>
+              <span class="d-lg-none d-md-block">Some Actions</span>
+            </p>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pablo">
+            <i class="now-ui-icons users_single-02"></i>
+            <p>
+              <span class="d-lg-none d-md-block">Account</span>
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+]]></template>
+    </sp_ng_template>
+</record_update>
